@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barrio Café Bar - Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              barrio: {
+                blue: '#172554', // Deep Royal Blue based on the cup
+                cream: '#FEF9E7', // Vintage cream background
+                wood: '#78350F', // Wood texture tone
+                red: '#991B1B', // Alert
+                green: '#166534', // Plants/Success
+              }
+            },
+            fontFamily: {
+              serif: ['"DM Serif Display"', 'serif'],
+              sans: ['"Inter"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FEF9E7;
+        font-family: 'Inter', sans-serif;
+      }
+      h1, h2, h3, .brand-font {
+        font-family: 'DM Serif Display', serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
